@@ -6,7 +6,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="css/bootstrap.css" rel="stylesheet" />
+  <style>
+    .header-foto {
+      background-image: url("images/fundo.png");
+      background-size: cover, cover;
+      background-position: center center, center center;
+      background-repeat: no-repeat, no-repeat;
+    }
+  </style>
 </head>
+
 <body data-bs-theme="dark" style="padding-top: 90px;">
   <nav class="navbar navbar-expand-lg bg-dark fixed-top text-uppercase">
     <div class="container">
@@ -24,7 +33,7 @@
           <li class="nav-item">
             <a class="nav-link" href="primeiro.html" aria-current="page">1º. Série</a>
             <!-- Segura o Alt e digita 167 -->
-          </li> 
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="segundo.html">2º. Série</a>
           </li>
@@ -36,6 +45,34 @@
       </div>
     </div>
   </nav>
+
+
+  <!-- <header class="text-white py-5" style="background: linear-gradient(120deg, #0f172a 0%, #1e3a5f 55%, #0d6efd 130%);"> -->
+  <!-- <header class="text-white py-5" style="background: #3F5EFB; background: radial-gradient(circle,rgba(63, 94, 251, 1) 0%, rgba(242, 230, 230, 1) 100%);"> -->
+  <header class="text-white py-5 header-foto">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="text-uppercase small fw-semibold mb-2 opacity-75">Etec Prof. Milton Gazzetti - Presidente Venceslau
+          </p>
+          <h1 class="display-4 fw-bold">Infomrática para Internet</h1>
+          <p class="lead mb-0">
+            Curso técnico gratuito, integrdo ao Ensino Médio. Em três anos você sai criando sites, aplicativos e
+            sistemas - do primeiro HTML ao projeto no ar.
+          </p>
+        </div>
+        <div class="col-lg-5 text-center d-none d-lg-block">
+          <img 
+            src="images/logo-mtec.png"
+            alt="Labo símbolo da Informática para Internet"
+            class="img-fluid"
+            style="max-height: 260px; border-radius: 50%;"
+          />
+        </div>
+      </div>
+    </div>
+  </header>
+
   <h1 class="text-primary">Mtec Informática para Internet</h1>
   <p>Página Principal do Website</p>
   <script src="js/bootstrap.bundle.min.js"></script>
